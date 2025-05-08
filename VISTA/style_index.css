@@ -1,0 +1,193 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bolder;
+}
+
+h1{
+    color:white;
+    font-size: 45px;
+    
+}
+
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.cabecera{
+    color:white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.cabecera:hover{
+    color: red;
+}
+
+body{
+    background-image: url(fondo2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+
+}
+
+.centrarForm{
+    display: grid;
+    place-items: center;
+    opacity: 0.7;
+}
+
+.form1{
+    justify-content: center center;
+    background-color: rgb(128, 0, 0);
+    padding: 80px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.973);
+    width: 350px;
+}
+
+.campoF1{
+    display: flex;
+    justify-content:left ;
+    align-items: center;
+    background-color: rgb(114, 110, 110);
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+h2{
+    background-color: rgb(128, 0, 0);
+    padding: 80px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.973);
+    width: 350px;
+    color: white;
+    
+}
+
+.input-linea {
+    width: 250px;
+    padding: 10px;
+    font-size: 16px;
+    border: none; 
+    border-bottom: 2px solid #ffffff; 
+    background-color: transparent;
+    transition: border-bottom-color 0.3s ease;
+}
+
+.inicio{
+display: grid;
+width: auto;
+height: auto;
+place-items:center;
+opacity: 0.7;
+margin-left: 2%;
+}
+
+.contenedor{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.cajaGrande{
+    background-color: black;
+}
+
+.caja{
+width: 300px;
+height: 350px;
+color: white;
+display: inline-block;
+margin: 2%;
+}
+
+.fotoPelicula{
+    height: 250px;
+    width: 180px;
+}
+
+.descripcion{
+    display: grid;
+    width: auto;
+    height: auto;
+    place-items:center;
+    opacity: 0.7;
+    margin-left: 2%;
+}
+
+.boton{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 40px;
+}
+
+.perfilPelicula{
+    display: flex;
+    color: white;
+    margin-left: 2%;
+    
+}
+
+p{
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fotoPelicula2{
+    width: 350px;
+    height: 500px;
+}
+
+.trailer{
+    margin-top: 3%;
+    margin-left: 40%;
+}
+
+.textPelicula{
+    margin-left: 2%;
+}
+
+.comentarios{
+    margin-left: 2%;
+    margin-top: 3%;
+    
+}
+
+.comentario{
+    background-color: rgb(255, 255, 255);
+    padding: 80px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.973);
+    width: 350px;
+    color: rgb(0, 0, 0);
+}
+
+.verComentarios{
+    background-color: rgb(255, 255, 255);
+    padding: 80px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.973);
+    width: 350px;
+    color: rgb(0, 0, 0);
+    margin-top: 1%;
+}
+
+.botonComentarios{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 40px;
+    margin-top: 1%;
+}
